@@ -53,12 +53,12 @@ console.log(firstyear)
 
 var secondyear = firstyear*raise;
 
-console.log(secondyear)
+console.log(secondyear);
 
 var thirdyear= secondyear*raise;
 
 
-console.log(thirdyear)
+console.log(thirdyear)  ;
 
 var initialSalary =prompt('Set the Initial Value')
 
@@ -67,6 +67,17 @@ initialSalary= initialSalary+ initialSalary *.05;
 initalSalary= initialSalary+ initialSalary *.05;
 
 initialSalary= initialSalary+ initialSalary *.05;
+
+
+
+var isStudent = false;
+
+var firstName = "Emmanuel";
+
+var studentNames = [ "Boom", "Bam", "Brim", "Blam"] ;
+
+console.log(studentNames[0]) ;
+
 
 
 
