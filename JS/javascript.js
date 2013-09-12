@@ -45,9 +45,10 @@ console.log(circ)
 
 //console.log(Math.PI)
 
-var salary= 10
-var raise=1.05;
-var firstyear= salary*.05;
+var salary= 10         //defining
+var raise=1.05;        //defining
+
+var firstyear= salary*raise;
 
 console.log(firstyear)
 
@@ -60,6 +61,8 @@ var thirdyear= secondyear*raise;
 
 console.log(thirdyear)  ;
 
+
+
 var initialSalary =prompt('Set the Initial Value')
 
 initialSalary= initialSalary+ initialSalary *.05;
@@ -68,7 +71,7 @@ initalSalary= initialSalary+ initialSalary *.05;
 
 initialSalary= initialSalary+ initialSalary *.05;
 
-
+//Activity #1
 
 var isStudent = false;
 
@@ -81,8 +84,17 @@ console.log(studentNames)
 console.log(studentNames[0]) ;
 
 
+//Activity #2
 
+var a =2;
 
+a= a+3;
+
+var result =a+3;
+
+console.log(a);
+
+console.log(result);
 
 
 
