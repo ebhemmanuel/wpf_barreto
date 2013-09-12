@@ -45,7 +45,7 @@ console.log(circ)
 
 //console.log(Math.PI)
 
-var salary= prompt('Set the initial Salary')*1;
+var salary= 10
 var raise=1.05;
 var firstyear= salary*.05;
 
@@ -67,6 +67,9 @@ initialSalary= initialSalary+ initialSalary *.05;
 initalSalary= initialSalary+ initialSalary *.05;
 
 initialSalary= initialSalary+ initialSalary *.05;
+
+
+
 
 
 
