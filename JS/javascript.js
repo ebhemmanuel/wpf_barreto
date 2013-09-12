@@ -33,11 +33,11 @@
 //area=length*width*height;
 //
 
-var radius=3;
-
-circ= radius*2*Math.PI;
-
-console.log(circ)
+//var radius=3;
+//
+//circ= radius*2*Math.PI;
+//
+//console.log(circ)
 
 //console.log(area);                   /**Short hand way to show the result**/
 //console.log(length*width*height)     /**Long version**/
@@ -104,17 +104,54 @@ var age =2013 - yearBorn;
 console.log(age)
 
 
-var width = 4;
-var height = 5;
-
-var area = width * height;
-
-console.log (area)
-
-area = area/2
-
-console.log(area)
-
-
+//var width = 4;
+//var height = 5;
+//
+//var area = width * height;
+//
+//console.log (area)
+//
+//area = area/2
+//
+//console.log(area)
 
 
+
+
+var remainder = 32 % 10;
+
+var remainderwat = 32 / 10;
+
+console.log(remainder);
+
+console.log(remainderwat) ;
+
+
+
+var quiz1 = 87;
+
+var quiz2 = 100;
+
+var quiz3 = 60;
+
+var quiz4 = 80;
+
+// average is the sum of hte items divided by the number of items
+
+//var average = (quiz1 + quiz2+ quiz3 +quiz4)/4;
+
+var average = quiz1 + quiz2+ quiz3 +quiz4;
+
+console.log(average)
+
+   var average= average /4;
+
+console.log(average);
+
+
+
+var length= 7;
+var width = 6;
+var perimeter = length * 2 + width * 2;
+
+console.log(perimeter)
