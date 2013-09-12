@@ -92,9 +92,9 @@ a= a+3;
 
 var result =a+3;
 
-console.log(a);
+console.log(a);      // result is 5.
 
-console.log(result);
+console.log(result);     // result is 8.
 
 
 
@@ -104,7 +104,16 @@ var age =2013 - yearBorn;
 console.log(age)
 
 
+var width = 4;
+var height = 5;
 
+var area = width * height;
+
+console.log (area)
+
+area = area/2
+
+console.log(area)
 
 
 
