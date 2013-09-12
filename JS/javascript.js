@@ -63,7 +63,7 @@ console.log(thirdyear)  ;
 
 
 
-var initialSalary =prompt('Set the Initial Value')
+var initialSalary = 10
 
 initialSalary= initialSalary+ initialSalary *.05;
 
@@ -95,6 +95,16 @@ var result =a+3;
 console.log(a);
 
 console.log(result);
+
+
+
+var yearBorn = 1989;
+var age =2013 - yearBorn;
+
+console.log(age)
+
+
+
 
 
 
