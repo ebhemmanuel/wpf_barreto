@@ -76,6 +76,8 @@ var firstName = "Emmanuel";
 
 var studentNames = [ "Boom", "Bam", "Brim", "Blam"] ;
 
+console.log(studentNames)
+
 console.log(studentNames[0]) ;
 
 
