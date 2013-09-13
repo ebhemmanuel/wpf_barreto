@@ -168,6 +168,30 @@ console.log(total);
 
 //Concentrating Strings
 
+//Concatenating = Combining strings
+//Concatenating strings
+
+
+var firstName= "Emmanuel";
+var lastName= "Barreto";
+
+//var fullName= firstName + lastName;
+
+var fullName= firstName + " " + lastName;
+
+console.log(fullName);
+
+//quotation marks will add the character, they will not function in mathematical expressions.
+
+var a= "6";
+var b="7";
+
+var result = a + b;
+
+console.log(result);
+
+
+
 
 
 
