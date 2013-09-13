@@ -154,4 +154,20 @@ var length= 7;
 var width = 6;
 var perimeter = length * 2 + width * 2;
 
-console.log(perimeter)
+
+//Using Arrays in Expressions
+
+console.log(perimeter);
+
+var orangeBins = [ 12, 13, 14];
+
+var total = orangeBins[0] + orangeBins[1] orangeBins [2];
+
+console.log(total);
+
+
+//Concentrating Strings
+
+
+
+
