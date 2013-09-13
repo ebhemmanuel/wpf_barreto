@@ -70,4 +70,13 @@ initialSalary= initialSalary+ initialSalary *.05;
 
 
 
+var isStudent = false;
+
+var firstName = "Emmanuel";
+
+
+
+
+
+
 
