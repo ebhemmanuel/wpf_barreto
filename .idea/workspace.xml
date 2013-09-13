@@ -12,7 +12,7 @@
     </list>
     <ignored path="wpf_barreto.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4125fe0-29d9-4fd2-ac73-c01d7203c3f7" time="1379030131933" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4125fe0-29d9-4fd2-ac73-c01d7203c3f7" time="1379031637125" ignored="false" />
     <file path="/javascript.js" changelist="e4125fe0-29d9-4fd2-ac73-c01d7203c3f7" time="1378342767369" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e4125fe0-29d9-4fd2-ac73-c01d7203c3f7" time="1379030183011" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="-3.2692308">
+            <state line="5" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="javascript.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.8757829">
+            <state line="60" column="25" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.6868476">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -107,7 +107,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,6 +141,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,6 +261,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -270,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="-3.2692308">
+        <state line="5" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.8757829">
+        <state line="60" column="25" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.6868476">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

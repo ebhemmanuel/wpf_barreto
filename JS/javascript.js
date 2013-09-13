@@ -53,12 +53,12 @@ console.log(firstyear)
 
 var secondyear = firstyear*raise;
 
-console.log(secondyear)
+console.log(secondyear);
 
 var thirdyear= secondyear*raise;
 
 
-console.log(thirdyear)
+console.log(thirdyear)  ;
 
 var initialSalary =prompt('Set the Initial Value')
 
