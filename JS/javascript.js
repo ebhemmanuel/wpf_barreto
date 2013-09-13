@@ -74,7 +74,9 @@ var isStudent = false;
 
 var firstName = "Emmanuel";
 
+var studentNames = [ "Boom", "Bam", "Brim", "Blam"] ;
 
+console.log(studentNames[0]) ;
 
 
 
