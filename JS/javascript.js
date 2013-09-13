@@ -44,64 +44,64 @@
 
 
 //console.log(Math.PI)
-
-var salary= 10         //defining
-var raise=1.05;        //defining
-
-var firstyear= salary*raise;
-
-console.log(firstyear)
-
-var secondyear = firstyear*raise;
-
-console.log(secondyear);
-
-var thirdyear= secondyear*raise;
-
-
-console.log(thirdyear)  ;
-
-
-
-var initialSalary = 10
-
-initialSalary= initialSalary+ initialSalary *.05;
-
-initalSalary= initialSalary+ initialSalary *.05;
-
-initialSalary= initialSalary+ initialSalary *.05;
-
-//Activity #1
-
-var isStudent = false;
-
-var firstName = "Emmanuel";
-
-var studentNames = [ "Boom", "Bam", "Brim", "Blam"] ;
-
-console.log(studentNames)
-
-console.log(studentNames[0]) ;
+//
+//var salary= 10         //defining
+//var raise=1.05;        //defining
+//
+//var firstyear= salary*raise;
+//
+//console.log(firstyear)
+//
+//var secondyear = firstyear*raise;
+//
+//console.log(secondyear);
+//
+//var thirdyear= secondyear*raise;
+//
+//
+//console.log(thirdyear)  ;
+//
+//
+//
+//var initialSalary = 10
+//
+//initialSalary= initialSalary+ initialSalary *.05;
+//
+//initalSalary= initialSalary+ initialSalary *.05;
+//
+//initialSalary= initialSalary+ initialSalary *.05;
+//
+////Activity #1
+//
+//var isStudent = false;
+//
+//var firstName = "Emmanuel";
+//
+//var studentNames = [ "Boom", "Bam", "Brim", "Blam"] ;
+//
+//console.log(studentNames)
+//
+//console.log(studentNames[0]) ;
 
 
 //Activity #2
-
-var a =2;
-
-a= a+3;
-
-var result =a+3;
-
-console.log(a);      // result is 5.
-
-console.log(result);     // result is 8.
-
-
-
-var yearBorn = 1989;
-var age =2013 - yearBorn;
-
-console.log(age)
+//
+//var a =2;
+//
+//a= a+3;
+//
+//var result =a+3;
+//
+//console.log(a);      // result is 5.
+//
+//console.log(result);     // result is 8.
+//
+//
+//
+//var yearBorn = 1989;
+//var age =2013 - yearBorn;
+//
+//console.log(age)
 
 
 //var width = 4;
@@ -118,52 +118,52 @@ console.log(age)
 
 
 
-var remainder = 32 % 10;
-
-var remainderwat = 32 / 10;
-
-console.log(remainder);
-
-console.log(remainderwat) ;
-
-
-
-var quiz1 = 87;
-
-var quiz2 = 100;
-
-var quiz3 = 60;
-
-var quiz4 = 80;
-
-// average is the sum of hte items divided by the number of items
-
-//var average = (quiz1 + quiz2+ quiz3 +quiz4)/4;
-
-var average = quiz1 + quiz2+ quiz3 +quiz4;
-
-console.log(average)
-
-   var average= average /4;
-
-console.log(average);
+//var remainder = 32 % 10;
+//
+//var remainderwat = 32 / 10;
+//
+//console.log(remainder);
+//
+//console.log(remainderwat) ;
 
 
 
-var length= 7;
-var width = 6;
-var perimeter = length * 2 + width * 2;
+//var quiz1 = 87;
+//
+//var quiz2 = 100;
+//
+//var quiz3 = 60;
+//
+//var quiz4 = 80;
+//
+//// average is the sum of hte items divided by the number of items
+//
+////var average = (quiz1 + quiz2+ quiz3 +quiz4)/4;
+//
+//var average = quiz1 + quiz2+ quiz3 +quiz4;
+//
+//console.log(average)
+//
+//   var average= average /4;
+//
+//console.log(average);
 
 
-//Using Arrays in Expressions
 
-console.log(perimeter);
-
-var orangeBins = [ 12, 13, 14];
-
-var total = orangeBins[0] + orangeBins[1] orangeBins [2];
-
-console.log(total);
+//var length= 7;
+//var width = 6;
+//var perimeter = length * 2 + width * 2;
+//
+//
+////Using Arrays in Expressions
+//
+//console.log(perimeter);
+//
+//var orangeBins = [ 12, 13, 14];
+//
+//var total = orangeBins[0] + orangeBins[1] orangeBins [2];
+//
+//console.log(total);
 
 
 //Concentrating Strings
@@ -172,25 +172,33 @@ console.log(total);
 //Concatenating strings
 
 
-var firstName= "Emmanuel";
-var lastName= "Barreto";
-
-//var fullName= firstName + lastName;
-
-var fullName= firstName + " " + lastName;
-
-console.log(fullName);
+//var firstName= "Emmanuel";
+//var lastName= "Barreto";
+//
+////var fullName= firstName + lastName;
+//
+//var fullName= firstName + " " + lastName;
+//
+//console.log(fullName);
 
 //quotation marks will add the character, they will not function in mathematical expressions.
 
-var a= "6";
-var b="7";
+//var a= "6";
+//var b="7";
+//
+//var result = a + b;
+//
+//console.log(result);
 
-var result = a + b;
 
-console.log(result);
+//Assignment Operators
 
+var a = 3;
+//a + 4;var
 
+a = a+ 4;
+
+console.log(a);
 
 
 
