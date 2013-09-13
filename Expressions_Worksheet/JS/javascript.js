@@ -15,7 +15,7 @@ var sparkysDob = 2007;
 
 var age = 2013 - sparkysDob;
 
-var humanYears = "In human years Sparky is " + age +  " years old.";
+var humanYears = "In human years Sparky is " + age +  " years old. \n";
 
 console.log(); console.log(humanYears);
 
@@ -63,10 +63,31 @@ var groceryShopping = [ 22, 60, 100, 70, 40];
 
 var total = groceryShopping [0] + groceryShopping [1] + groceryShopping [2] + groceryShopping [3] + groceryShopping [4];
 
-console.log("My average grocery shopping is " + total);
+var average = total / 5;
+
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. " + "\nThat is an average of $"+ average + " per week.");
 
 
 
+// Discounts
+
+var originalPrice= 5.95;
+
+
+var megaPack= "Mega Pack of Altoids" ;
+
+var discount = .03;
+
+var discountVar= 3;
+
+var salesTax = .07;
+
+var costAfter = originalPrice - (originalPrice * discount ) ;
+
+var afterTax =  costAfter + (costAfter * salesTax)   ;
+
+
+ console.log ( "Your" + megaPack + " was originally $" + originalPrice + ", but after a " + discountVar + "% discount, it is now $" + costAfter + " without tax, and $" + afterTax + " with tax."  )
 
 
 
