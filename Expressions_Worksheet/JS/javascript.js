@@ -39,7 +39,7 @@ var partyPeople = 5;
 
 var pizzaOrder = 1;
 
-var result = "Each person gets "+ pizzaSlices / partyPeople * pizzaOrder + " pizza slices.";
+var result = "Each person ate "+ pizzaSlices / partyPeople * pizzaOrder + " slices of pizza at the party";
 
 console.log(result+"\n");
 
@@ -53,13 +53,17 @@ console.log(sliceOfpieII) ;
 
 var leftOverpizza = (pizzaSlices % partyPeople);
 
-var sparkyGets = "Sparky gets " + leftOverpizza + " slices of pizza." ;
+var sparkyGets = "Sparky got " + leftOverpizza + " slices of pizza." ;
 
 console.log(sparkyGets+"\n");
 
 //Average Shopping Bill
 
 var groceryShopping = [ 22, 60, 100, 70, 40];
+
+var total = groceryShopping [0] + groceryShopping [1] + groceryShopping [2] + groceryShopping [3] + groceryShopping [4];
+
+console.log("My average grocery shopping is " + total);
 
 
 
