@@ -196,9 +196,15 @@
 var a = 3;
 //a + 4;var
 
-a = a+ 4;
+//a = a+ 4;
+// a++ // a--// a= a + 1 // a= a - 1//    shorthand way of reducing or increasing
+a+=4;
 
-console.log(a);
+//You can change the operator "+" "*" "-" "/"
+
+console.log(a); // result is 7
+
+
 
 
 
