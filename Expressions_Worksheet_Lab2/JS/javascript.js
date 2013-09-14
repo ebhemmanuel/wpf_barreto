@@ -29,7 +29,7 @@ console.log(dogYears)  ;
 
 //Slice of Pie part 1
 
-var sliceOfpie = "Slice of Pie Part I \n"
+var sliceOfpie = "Slice of Pie Part I \n";
 
 console.log(sliceOfpie);
 
@@ -39,9 +39,9 @@ var partyPeople = 5;
 
 var pizzaOrder = 1;
 
-var result = "Each person ate "+ pizzaSlices / partyPeople * pizzaOrder + " slices of pizza at the party";
+var result = pizzaSlices / partyPeople * pizzaOrder;
 
-console.log(result+"\n");
+console.log("Each person ate" + " " + result +" " + "slice of pizza at the party \n");
 
 
 //Slice of Pie part 2
@@ -51,7 +51,7 @@ var sliceOfpieII = "Slice of Pie Part II \n"  ;
 console.log(sliceOfpieII) ;
 
 
-var leftOverpizza = (pizzaSlices % partyPeople) * partyPeople;
+var leftOverpizza = pizzaSlices * pizzaOrder % partyPeople;
 
 var sparkyGets = "Sparky got " + leftOverpizza + " slices of pizza." ;
 
@@ -82,12 +82,12 @@ var discountVar= 3;
 
 var salesTax = .07;
 
-var costAfter = originalPrice - (originalPrice * discount ) ;
+var costAfter = originalPrice - (originalPrice * discount );
 
-var afterTax =  costAfter + (costAfter * salesTax)   ;
+var afterTax =  costAfter + (costAfter * salesTax);
 
 
- console.log ( "Your" + megaPack + " was originally $" + originalPrice + ", but after a " + discountVar + "% discount, it is now $" + costAfter + " without tax, and $" + afterTax + " with tax."  )
+ console.log ( "Your" + megaPack + " was originally $" + originalPrice + ", but after a " + discountVar + "% discount, it is now $" + costAfter + " without tax, and $" + afterTax + " with tax."  ) ;
 
 
 
