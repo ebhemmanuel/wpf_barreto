@@ -51,7 +51,7 @@ var sliceOfpieII = "Slice of Pie Part II \n"  ;
 console.log(sliceOfpieII) ;
 
 
-var leftOverpizza = (pizzaSlices % partyPeople);
+var leftOverpizza = (pizzaSlices % partyPeople) * partyPeople;
 
 var sparkyGets = "Sparky got " + leftOverpizza + " slices of pizza." ;
 
@@ -65,7 +65,7 @@ var total = groceryShopping [0] + groceryShopping [1] + groceryShopping [2] + gr
 
 var average = total / 5;
 
-console.log("You have spent a total of $" + total + " on groceries over 5 weeks. " + "\nThat is an average of $"+ average + " per week.");
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. " + "\nThat is an average of $"+ average + " per week. \n");
 
 
 

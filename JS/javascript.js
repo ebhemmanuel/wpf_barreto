@@ -104,10 +104,14 @@
 //console.log(age)
 
 
+//Are of a triangle
+
 //var width = 4;
 //var height = 5;
 //
 //var area = width * height;
+
+//var area= (width * height) / 2;
 //
 //console.log (area)
 //
@@ -115,7 +119,11 @@
 //
 //console.log(area)
 
+//Squareroot
 
+//var number = 36
+
+//var s = Math.sqrt (number);
 
 
 //var remainder = 32 % 10;
@@ -135,6 +143,8 @@
 //var quiz3 = 60;
 //
 //var quiz4 = 80;
+
+
 //
 //// average is the sum of hte items divided by the number of items
 //
@@ -193,18 +203,109 @@
 
 //Assignment Operators
 
-var a = 3;
-//a + 4;var
+//var a = 3;
+////a + 4;var
+//
+////a = a+ 4;
+//// a++ // a--// a= a + 1 // a= a - 1//    shorthand way of reducing or increasing
+//a+=4;
+//
+////You can change the operator "+" "*" "-" "/"
+//
+//console.log(a); // result is 7
+//
+//
+//
+//var test = 0  ;
+//var confuse =5 ;
+//test+=3;
+//test+=confuse -1;
+//test--;
+//test+=confuse*(test-1);
 
-//a = a+ 4;
-// a++ // a--// a= a + 1 // a= a - 1//    shorthand way of reducing or increasing
-a+=4;
+//Control structure   - You can break the flow of your code, break the sequential flow of the code.
 
-//You can change the operator "+" "*" "-" "/"
+var testGrade = 100;
 
-console.log(a); // result is 7
+if (testGrade == 100 ) {
+
+    console.log("Perfect")
+}      //Questions if it's 100, one = sign says it IS 100, two == asks if it is.
+
+    if (testGrade>69) {
+
+        console.log("Congrats.")
+
+        else {console.log("Damn.")}
+
+    }
+
+//    if (testGrade<69)  {
+//
+//      console.log("Damn.")
+//    }
+//
+//
+//
 
 
+var testGrade = 100;
+
+if (testGrade>90 ) {
+    console.log("A")
+};
+
+//Questions if it's 100, one = sign says it IS 100, two == asks if it is.
+
+else if (testGrade>80) {
+    console.log("B")
+    };
+
+else if (testGrade>70) {
+    console.log("C")
+    };
+
+else if (testGrade>60) {
+    console.log ("D")
+    };
+
+else {
+    console.log ("F")
+};
+
+
+
+//&& means and
+
+//if (testGrade>79 && testGrade<90){
+//    console.log("B")
+//}
+//
+//if (testGrade>69 && testGrade<80)
+//
+//{
+//
+//
+//}
+
+
+if (testGrade>90) {
+
+    letterGrade ="A"
+
+
+}    ;
+
+
+// || means or
+if  (letterGrade=="C" || letterGrade=="A"){
+
+
+}   ;                   // This means either could be true. This or This { then this }
+
+
+
+                 letterGrade= ["A", "B", "C", "D","F"]    ;
 
 
 
