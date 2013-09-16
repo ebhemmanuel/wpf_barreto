@@ -51,7 +51,7 @@ var sliceOfpieII = "Slice of Pie Part II \n"  ;
 console.log(sliceOfpieII) ;
 
 
-var leftOverpizza = pizzaSlices * pizzaOrder % partyPeople;
+var leftOverpizza = pizzaSlices * pizzaOrder % partyPeople; '                               '
 
 var sparkyGets = "Sparky got " + leftOverpizza + " slices of pizza." ;
 
