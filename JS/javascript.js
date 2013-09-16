@@ -85,3 +85,140 @@
 //
 //
 //
+
+
+ //for loops        as long as it's true, it keeps going. Once it's false, it stops.
+
+//for ( i=0; i<=10; i++ ){
+//
+//    console.log(i);
+
+//}
+
+// Goes through the loop of the array. Includes all the items of the array.
+
+//var array= [];
+//
+//array[0]= "happy";
+//array[1]= "boom";
+//
+//
+//
+//for ( i=0; i<=array.length; i++ ){
+//
+//    console.log(array[i]);
+//}
+
+//Stat of the Functions and Examples
+
+//Global variables can be used inside and outside of compartments. Don't use it as much as possible. Do not depend on gobal variables.
+
+//data types parseint = intrature  parsestring
+
+                      // V input value
+//
+//function firstFunction (number1, number2 ){
+//
+//    var productOfNum1andNum2;
+//    productOfNum1andNum2 = parseInt(number1) * parseInt(number2)  ;
+//
+//    return    productOfNum1andNum2;
+//
+//
+//}
+//
+//
+//console.log(firstFunction(5,7));
+//
+//
+//function secondFunction (number1, number2 )
+//{
+//return parseInt(number1) + parseInt(number2)  ;
+//}
+//
+//console.log(secondFunction(5,7));
+
+
+//Land types
+
+//var randomValue = Math.random ();
+//console.log(randomValue);
+//
+//function landSelection (percentChance) {
+//
+//    if(percentChance <.5){return "woods"}
+//    else {return "jungle"}
+//}
+//
+//console.log(landSelection(randomValue));
+//
+//for (i=0; i<=10; i++) {
+//
+//    console.log (landSelection(randomValue));
+//}
+
+
+//function landSelection (percentChance) {
+//    var randomValue = Math.random ();
+//    if(percentChance <.5){return "woods"}
+//    else {return "jungle"}
+//}
+//
+//console.log(landSelection());
+
+//for (i=0; i<=10; i++) {
+//
+//    console.log (landSelection());
+//}
+
+//properties are within an object, sometimes they are empty, sometimes they are full.
+// It depends if they take parameters. How do you use, when do you use, what kind of parameters do you use.
+
+
+//function cube (value) {
+//
+//    return value * value * Value
+//
+//
+//
+//
+//}
+
+//function cubeValues (value) {
+//
+//
+//    var cube;
+//
+//    cube = value * value * value;
+//
+//    var returnValue= value + '*'+value+ '*'+value + '=' + cube;
+//
+//    return returnValue;
+//
+//}
+//
+//for (i=0; i<=10; i++)  {
+//
+//console.log (cubeValues(i));
+//
+//}
+
+
+function cubeValues (value) {
+
+
+    var cube;
+
+    cube = value * value * value;
+
+    var returnValue= value + '*'+value+ '*'+value + '=' + cube;
+
+    return returnValue;
+
+}
+
+for (i=0; i<=10; i++)  {
+
+    console.log (cubeValues(i));
+
+}
