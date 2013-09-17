@@ -71,8 +71,9 @@ function tirePressure () {
     var theInspection = [ "The tires pass spec!", "Get your tires checked out!"];
     var returnCheck   = '';
 
-         if(tireSystem[0]==tireSystem[1] && tireSystem[2]==tireSystem[3])       {returnCheck= theInspection[0]}
-            else                                                                {returnCheck= theInspection[1]}
+         if(tireSystem[0]==tireSystem[1] &&
+             tireSystem[2]==tireSystem[3])     {returnCheck= theInspection[0]}
+            else                               {returnCheck= theInspection[1]}
 
     return returnCheck;   }
 
