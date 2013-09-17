@@ -23,11 +23,8 @@
 
 // Grade Letter Calculator
 
-
-// =prompt('Set the Initial Value')
-
 function myMathGrade () {
-    var numberGrade   = prompt('Enter the Grade # for math:');
+    var numberGrade   = prompt('Enter the Grade # for math:');   // =prompt('Set the Initial Value')
     var gradeSystem = [ "A", "B", "C", "D", "F"];
     var returnGrade = '';
 
