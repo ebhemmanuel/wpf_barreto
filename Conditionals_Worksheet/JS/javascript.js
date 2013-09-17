@@ -38,7 +38,7 @@ function myTemperature () {
          if(typeTemp[0])                    {returnTemperature= tempConversion[0]}
     else if(typeTemp[1])                    {returnTemperature= tempConversion[1]}
 
-    if (typeTemp[0])                        {return "The temperature is " +returnTemperature+ " degrees Celsius.";}
+         if(typeTemp[0])                    {return "The temperature is " +returnTemperature+ " degrees Celsius.";}
         else                                {return "The temperature is " + returnTemperature+ " degrees Fahrenheit."}
 
      }
