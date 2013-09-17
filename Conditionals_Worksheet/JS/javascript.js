@@ -33,7 +33,7 @@ function myTemperature () {
     var enterType          = "C"; // =prompt('Set the Initial Value')
     var tempConversion     = [ (theTemp-32)*5/9, (theTemp*9/5)+32 ];
     var typeTemp           = [ enterType=="F", enterType=="C" ];
-    var returnTemperature = '';
+    var returnTemperature  = '';
 
          if(typeTemp[0])                    {returnTemperature= tempConversion[0]}
     else if(typeTemp[1])                    {returnTemperature= tempConversion[1]}
@@ -72,7 +72,7 @@ function tirePressure () {
     var returnCheck   = '';
 
          if(tireSystem[0]==tireSystem[1] &&
-             tireSystem[2]==tireSystem[3])     {returnCheck= theInspection[0]}
+            tireSystem[2]==tireSystem[3])      {returnCheck= theInspection[0]}
             else                               {returnCheck= theInspection[1]}
 
     return returnCheck;   }
