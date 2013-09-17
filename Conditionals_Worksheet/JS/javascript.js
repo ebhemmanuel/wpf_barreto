@@ -23,30 +23,55 @@
 
 // Grade Letter Calculator
 
-if (testGrade>90) {
 
-    letterGrade ="A"   }
+// =prompt('Set the Initial Value')
 
-if (testGrade>79 && testGrade<90){
-  console.log("B")    }
+function myMathGrade () {
+    var numberGrade   = prompt('Enter the Grade # for math:');
+    var gradeSystem = [ "A", "B", "C", "D", "F"];
+    var returnGrade = '';
+
+    if(numberGrade >89)                         {returnGrade= gradeSystem[0]}
+    else if(numberGrade >79 && numberGrade<90 ) {returnGrade= gradeSystem[1]}
+    else if(numberGrade >69 && numberGrade<80 ) {returnGrade= gradeSystem[2]}
+    else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
+    else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
+
+    return returnGrade;   }
+
+console.log(myMathGrade());
+
+function myEnglishGrade () {
+    var numberGrade   = prompt('Enter the Grade # for English:');
+    var gradeSystem = [ "A", "B", "C", "D", "F"];
+    var returnGrade = '';
+
+    if(numberGrade >89)                         {returnGrade= gradeSystem[0]}
+    else if(numberGrade >79 && numberGrade<90 ) {returnGrade= gradeSystem[1]}
+    else if(numberGrade >69 && numberGrade<80 ) {returnGrade= gradeSystem[2]}
+    else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
+    else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
+
+    return returnGrade;   }
 
 
-function landSelection () {
-    var percentChance = Math.floor(Math.random()*10);
-    var landArray = [ "A", "B", "C", "D", "F"];
-    var returnLand= '';
-    if(percentChance ==0)  {returnLand= landArray[0]}
-    else if(percentChance ==1)  {returnLand= landArray[1]}
-    else if(percentChance ==2)  {returnLand= landArray[2]}
-    else if(percentChance ==3)  {returnLand= landArray[3]}
-    else if(percentChance ==4)  {returnLand= landArray[4]}
-    else if(percentChance ==5)  {returnLand= landArray[5]}
+console.log(myEnglishGrade());
 
-    //console.log(percentChance);
-    return returnLand;
-}
+function myHistoryGrade () {
+    var numberGrade   = prompt('Enter the Grade # for History:');
+    var gradeSystem = [ "A", "B", "C", "D", "F"];
+    var returnGrade = '';
+
+    if(numberGrade >89)                         {returnGrade= gradeSystem[0]}
+    else if(numberGrade >79 && numberGrade<90 ) {returnGrade= gradeSystem[1]}
+    else if(numberGrade >69 && numberGrade<80 ) {returnGrade= gradeSystem[2]}
+    else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
+    else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
+
+    return returnGrade;   }
 
 
+console.log(myHistoryGrade());
 
 // Check the Login
 
