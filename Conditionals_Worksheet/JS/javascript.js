@@ -9,7 +9,7 @@
 
 // Stuff your Face I
 
-function Division () {
+function myDivision () {
     var myWeight          = 255;   // =prompt('Set the Initial Value')
     var approvalMessage   = [ "The competitor qualifies for the heavyweight division.", "The competitor needs to gain some weight!"];
     var returnGrade       = '';
@@ -17,9 +17,11 @@ function Division () {
             if(myWeight >249)                    {returnGrade= approvalMessage[0]}
        else if(myWeight <248)                    {returnGrade= approvalMessage[1]}
 
-    return returnGrade; }
+    return returnGrade;
 
-console.log(Division());
+}
+
+console.log(myDivision());
 
 
 
@@ -59,7 +61,9 @@ function myMathGrade () {
     else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
     else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
 
-    return "You have a "+ numberGrade+"%"+ ", which means you have earned an "+returnGrade+" in the class!";   }
+    return "You have a "+ numberGrade+"%"+ ", which means you have earned an "+returnGrade+" in the class!";
+
+}
 
 console.log(myMathGrade());
 
@@ -75,7 +79,9 @@ function tirePressure () {
             tireSystem[2]==tireSystem[3])      {returnCheck= theInspection[0]}
             else                               {returnCheck= theInspection[1]}
 
-    return returnCheck;   }
+    return returnCheck;
+
+}
 
 
 console.log(tirePressure());
