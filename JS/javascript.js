@@ -158,18 +158,49 @@
 //}
 
 
-//function landSelection (percentChance) {
+
+
+
 //    var randomValue = Math.random ();
-//    if(percentChance <.5){return "woods"}
-//    else {return "jungle"}
-//}
-//
+//or   //   var name = 1;                                                                                                //<- repeat this till 10
+
+function landSelection () {
+    var percentChance = Math.random()*10;
+     var landArray = [ "Woods", "Jungle", "Grass", "Mountains", "Water", "Snow", "Molten", "Swamps", "Caves", "Secret" ]  ;
+        var returnLand= '';
+             if(percentChance ==1) {returnLand= landArray[0]}
+        else if(percentChance ==2) {returnLand= landArray[1]}
+        else if(percentChance ==3) {returnLand= landArray[2]}
+        else if(percentChance ==4) {returnLand= landArray[3]}
+        else if(percentChance ==5) {returnLand= landArray[4]}
+        else if(percentChance ==6) {returnLand= landArray[5]}
+        else if(percentChance ==7) {returnLand= landArray[6]}
+        else if(percentChance ==8) {returnLand= landArray[7]}
+        else if(percentChance ==9) {returnLand= landArray[8]}
+        else if(percentChance ==10){returnLand= landArray[9]}
+           return returnLand;
+    }
+
 //console.log(landSelection());
 
-//for (i=0; i<=10; i++) {
-//
-//    console.log (landSelection());
-//}
+for (j=0; j<10; j++) {
+
+for (i=0; i<10; i++) {
+
+    if(i==0) { rowOfLand +=landSelection()}
+    else { rowOfLand = rowOfLand+', '+ landSelection();}
+
+    console.log(rowOfLand)
+
+}
+
+console.log(rowOfLand)
+
+}
+
+
+
+
 
 //properties are within an object, sometimes they are empty, sometimes they are full.
 // It depends if they take parameters. How do you use, when do you use, what kind of parameters do you use.
@@ -202,23 +233,23 @@
 //console.log (cubeValues(i));
 //
 //}
-
-
-function cubeValues (value) {
-
-
-    var cube;
-
-    cube = value * value * value;
-
-    var returnValue= value + '*'+value+ '*'+value + '=' + cube;
-
-    return returnValue;
-
-}
-
-for (i=0; i<=10; i++)  {
-
-    console.log (cubeValues(i));
-
-}
+//
+//
+//function cubeValues (value) {
+//
+//
+//    var cube;
+//
+//    cube = value * value * value;
+//
+//    var returnValue= value +'*'+value+'*'+value +'='+ cube;
+//
+//    return returnValue;
+//
+//}
+//
+//for (i=0; i<=10; i++)  {
+//
+//    console.log (cubeValues(i));
+//
+//}
