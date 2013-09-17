@@ -7,89 +7,52 @@
  */
 //Emmanuel Barreto // Thursday September 12, 2013 //
 
-//Dog Years
-
-//Sparky's Age
-
-var sparkysDob = 2007;
-
-var age = 2013 - sparkysDob;
-
-var humanYears = "In human years Sparky is " + age +  " years old. \n";
-
-console.log(); console.log(humanYears);
-
-age*=7;
-
-var dogYears = "However, dog years Sparky is " + age +  " years old. \n";
-
-
-console.log(dogYears)  ;
-
-
-//Slice of Pie part 1
-
-var sliceOfpie = "Slice of Pie Part I \n";
-
-console.log(sliceOfpie);
-
-var pizzaSlices = 12;
-
-var partyPeople = 5;
-
-var pizzaOrder = 1;
-
-var result = pizzaSlices / partyPeople * pizzaOrder;
-
-console.log("Each person ate" + " " + result +" " + "slice of pizza at the party \n");
-
-
-//Slice of Pie part 2
-
-var sliceOfpieII = "Slice of Pie Part II \n"  ;
-
-console.log(sliceOfpieII) ;
-
-
-var leftOverpizza = pizzaSlices * pizzaOrder % partyPeople; '                               '
-
-var sparkyGets = "Sparky got " + leftOverpizza + " slices of pizza." ;
-
-console.log(sparkyGets+"\n");
-
-//Average Shopping Bill
-
-var groceryShopping = [ 22, 60, 100, 70, 40];
-
-var total = groceryShopping [0] + groceryShopping [1] + groceryShopping [2] + groceryShopping [3] + groceryShopping [4];
-
-var average = total / 5;
-
-console.log("You have spent a total of $" + total + " on groceries over 5 weeks. " + "\nThat is an average of $"+ average + " per week. \n");
-
-
-
-// Discounts
-
-var originalPrice= 5.95;
-
-
-var megaPack= "Mega Pack of Altoids" ;
-
-var discount = .03;
-
-var discountVar= 3;
-
-var salesTax = .07;
-
-var costAfter = originalPrice - (originalPrice * discount );
-
-var afterTax =  costAfter + (costAfter * salesTax);
-
-
- console.log ( "Your" + megaPack + " was originally $" + originalPrice + ", but after a " + discountVar + "% discount, it is now $" + costAfter + " without tax, and $" + afterTax + " with tax."  ) ;
+// Stuff your Face I
 
 
 
 
+// Celsius to Fahrenheit converter
 
+
+
+
+// Last Chance for Gas!
+
+
+
+// Grade Letter Calculator
+
+if (testGrade>90) {
+
+    letterGrade ="A"   }
+
+if (testGrade>79 && testGrade<90){
+  console.log("B")    }
+
+
+function landSelection () {
+    var percentChance = Math.floor(Math.random()*10);
+    var landArray = [ "A", "B", "C", "D", "F"];
+    var returnLand= '';
+    if(percentChance ==0)  {returnLand= landArray[0]}
+    else if(percentChance ==1)  {returnLand= landArray[1]}
+    else if(percentChance ==2)  {returnLand= landArray[2]}
+    else if(percentChance ==3)  {returnLand= landArray[3]}
+    else if(percentChance ==4)  {returnLand= landArray[4]}
+    else if(percentChance ==5)  {returnLand= landArray[5]}
+
+    //console.log(percentChance);
+    return returnLand;
+}
+
+
+
+// Check the Login
+
+
+// Tire Pressure I
+
+
+
+// Movie Ticket Price
