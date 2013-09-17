@@ -29,16 +29,19 @@ console.log(Division());
 //   C to F Multiply by 9, then divide by 5, then add 32
 
 function myTemperature () {
-    var theTemp           = 66;
-    var enterType         = "F"; // =prompt('Set the Initial Value')
-    var tempConversion    = [ (theTemp - 32) * 5 / 9, (theTemp*9/5)+32 ];
-    var typeTemp          = [ enterType=="F", enterType=="C" ];
+    var theTemp            = 66;
+    var enterType          = "C"; // =prompt('Set the Initial Value')
+    var tempConversion     = [ (theTemp - 32) * 5 / 9, (theTemp*9/5)+32 ];
+    var typeTemp           = [ enterType=="F", enterType=="C" ];
     var returnTemperature = '';
 
          if(typeTemp[0])                    {returnTemperature= tempConversion[0]}
     else if(typeTemp[1])                    {returnTemperature= tempConversion[1]}
 
-    return returnTemperature; }
+    if (typeTemp[0])                        {return "The temperature is " +returnTemperature+ " degrees Celsius.";}
+        else                                {return "The temperature is " + returnTemperature+ " degrees Fahrenheit."}
+
+     }
 
 console.log(myTemperature());
 
@@ -56,41 +59,9 @@ function myMathGrade () {
     else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
     else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
 
-    return returnGrade;   }
+    return "You have a "+ numberGrade+"%"+ ", which means you have earned an "+returnGrade+" in the class!";   }
 
 console.log(myMathGrade());
-
-function myEnglishGrade () {
-    var numberGrade = 85;
-    var gradeSystem = [ "A", "B", "C", "D", "F"];
-    var returnGrade = '';
-
-         if(numberGrade >89)                    {returnGrade= gradeSystem[0]}
-    else if(numberGrade >79 && numberGrade<90 ) {returnGrade= gradeSystem[1]}
-    else if(numberGrade >69 && numberGrade<80 ) {returnGrade= gradeSystem[2]}
-    else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
-    else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
-
-    return returnGrade;   }
-
-
-console.log(myEnglishGrade());
-
-function myHistoryGrade () {
-    var numberGrade = 50;
-    var gradeSystem = [ "A", "B", "C", "D", "F"];
-    var returnGrade = '';
-
-         if(numberGrade >89)                    {returnGrade= gradeSystem[0]}
-    else if(numberGrade >79 && numberGrade<90 ) {returnGrade= gradeSystem[1]}
-    else if(numberGrade >69 && numberGrade<80 ) {returnGrade= gradeSystem[2]}
-    else if(numberGrade >59 && numberGrade<70 ) {returnGrade= gradeSystem[3]}
-    else if(numberGrade <59 )                   {returnGrade= gradeSystem[4]}
-
-    return returnGrade;   }
-
-
-console.log(myHistoryGrade());
 
 
 // Tire Pressure I
