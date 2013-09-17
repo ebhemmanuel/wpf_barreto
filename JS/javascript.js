@@ -162,11 +162,11 @@
 
 
 //    var randomValue = Math.random ();
-//or   //   var name = 1;                                                                                                //<- repeat this till 10   simple way to do it
+//or   //   var name = 1;                                                                                                //<- repeat this till 10   simple way to do it.
 
 function landSelection () {
     var percentChance = Math.floor(Math.random()*10);
-     var landArray = [ "Woods\t\t", "Jungle\t\t", "Grass\t\t", "Mountains\t\t", "Water\t\t", "Snow\t\t", "Molten\t\t", "Swamps\t\t", "Caves\t\t", "Secret\t\t" ];
+     var landArray = [ "Woods\t", "Jungle\t", "Grass\t", "Boom\t", "Water\t", "Snow\t", "Molten\t", "Swamps\t", "Caves\t", "Secret\t" ];
         var returnLand= '';
              if(percentChance ==0)  {returnLand= landArray[0]}
         else if(percentChance ==1)  {returnLand= landArray[1]}
@@ -181,28 +181,20 @@ function landSelection () {
                                                                                           //console.log(percentChance);
            return returnLand;
     }
-
 //console.log(landSelection());
 
 for (j=0; j<10; j++) {
-
-    var rowOfLand = "";
-
-     for (i=0; i<10; i++) {
-//
-//        if(i==0) { rowOfLand+= landSelection()}
-
-             rowOfLand = rowOfLand  + landSelection();}
-
-            console.log(rowOfLand)
-
-    }
+     var rowOfLand = "";
+         for (i=0; i<10; i++) if(i==1) { rowOfLand+= landSelection()}
+    else {rowOfLand = rowOfLand  + landSelection();}
+    console.log(rowOfLand)
+}
 
 //console.log(rowOfLand)
 //    console.log(landSelection());
 
 
-
+//        if(i==0) { rowOfLand+= landSelection()}
 
 
 
