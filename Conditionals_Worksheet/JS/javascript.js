@@ -29,12 +29,12 @@ console.log(Division());
 //   C to F Multiply by 9, then divide by 5, then add 32
 
 function myTemperature () {
-    var theTemp           = prompt('Enter the tempature value in Celsius:');   // =prompt('Set the Initial Value')
+    var theTemp           = prompt('Enter the tempature value:');   // =prompt('Set the Initial Value')
     var tempConversion    = [ theTemp-=32*5/9, theTemp*=9/5+35 ];
     var returnTemperature = '';
 
-    if(theTemp ()+"F")                    {returnTemperature= tempConversion[0]}
-    else if(theTemp ()+"C")                    {returnTemperature= tempConversion[1]}
+         if(theTemp== ""+"F")                    {returnTemperature= tempConversion[0]}
+    else if(theTemp== ""+"C")                    {returnTemperature= tempConversion[1]}
 
     return returnTemperature; }
 
