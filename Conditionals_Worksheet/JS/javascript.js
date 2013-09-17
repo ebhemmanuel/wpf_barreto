@@ -31,7 +31,7 @@ console.log(Division());
 function myTemperature () {
     var theTemp            = 66;
     var enterType          = "C"; // =prompt('Set the Initial Value')
-    var tempConversion     = [ (theTemp - 32) * 5 / 9, (theTemp*9/5)+32 ];
+    var tempConversion     = [ (theTemp-32)*5/9, (theTemp*9/5)+32 ];
     var typeTemp           = [ enterType=="F", enterType=="C" ];
     var returnTemperature = '';
 
