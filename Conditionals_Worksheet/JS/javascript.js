@@ -10,7 +10,7 @@
 // Stuff your Face I
 
 function Division () {
-    var myWeight          = prompt('Enter your weight(lb):');   // =prompt('Set the Initial Value')
+    var myWeight          = 255;   // =prompt('Set the Initial Value')
     var approvalMessage   = [ "The competitor qualifies for the heavyweight division.", "The competitor needs to gain some weight!"];
     var returnGrade       = '';
 
@@ -29,27 +29,24 @@ console.log(Division());
 //   C to F Multiply by 9, then divide by 5, then add 32
 
 function myTemperature () {
-    var theTemp           = prompt('Enter the tempature value:');   // =prompt('Set the Initial Value')
-    var tempConversion    = [ theTemp-=32*5/9, theTemp*=9/5+35 ];
+    var theTemp           = 66;
+    var enterType         = "F"; // =prompt('Set the Initial Value')
+    var tempConversion    = [ (theTemp - 32) * 5 / 9, (theTemp*9/5)+32 ];
+    var typeTemp          = [ enterType=="F", enterType=="C" ];
     var returnTemperature = '';
 
-         if(theTemp== ""+"F")                    {returnTemperature= tempConversion[0]}
-    else if(theTemp== ""+"C")                    {returnTemperature= tempConversion[1]}
+         if(typeTemp[0])                    {returnTemperature= tempConversion[0]}
+    else if(typeTemp[1])                    {returnTemperature= tempConversion[1]}
 
     return returnTemperature; }
 
 console.log(myTemperature());
 
 
-
-// Last Chance for Gas!
-
-
-
 // Grade Letter Calculator
 
 function myMathGrade () {
-    var numberGrade = prompt('Enter the Grade # for math:');   // =prompt('Set the Initial Value')
+    var numberGrade = 97;   // =prompt('Set the Initial Value')
     var gradeSystem = [ "A", "B", "C", "D", "F"];
     var returnGrade = '';
 
@@ -64,7 +61,7 @@ function myMathGrade () {
 console.log(myMathGrade());
 
 function myEnglishGrade () {
-    var numberGrade = prompt('Enter the Grade # for English:');
+    var numberGrade = 85;
     var gradeSystem = [ "A", "B", "C", "D", "F"];
     var returnGrade = '';
 
@@ -80,7 +77,7 @@ function myEnglishGrade () {
 console.log(myEnglishGrade());
 
 function myHistoryGrade () {
-    var numberGrade = prompt('Enter the Grade # for History:');
+    var numberGrade = 50;
     var gradeSystem = [ "A", "B", "C", "D", "F"];
     var returnGrade = '';
 
@@ -94,8 +91,6 @@ function myHistoryGrade () {
 
 
 console.log(myHistoryGrade());
-
-// Check the Login
 
 
 // Tire Pressure I
