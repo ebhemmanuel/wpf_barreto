@@ -95,6 +95,17 @@ console.log(myHistoryGrade());
 
 // Tire Pressure I
 
+function tirePressure () {
+    var tireSystem    = [ 20, 20, 40, 35];
+    var theInspection = [ "The tires pass spec!", "Get your tires checked out!"];
+    var returnCheck   = '';
+
+         if(tireSystem[0]==tireSystem[1] && tireSystem[2]==tireSystem[3])       {returnCheck= theInspection[0]}
+            else { returnCheck= theInspection[1]}
+
+    return returnCheck;   }
 
 
-// Movie Ticket Price
+console.log(tirePressure());
+
+
