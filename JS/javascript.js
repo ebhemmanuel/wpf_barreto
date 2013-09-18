@@ -185,8 +185,12 @@ function landSelection () {
 
 for (j=0; j<10; j++) {
      var rowOfLand = "";
-         for (i=0; i<10; i++) if(i==1) { rowOfLand+= landSelection()}
-    else {rowOfLand = rowOfLand  + landSelection();}
+
+      for (i=0; i<10; i++)
+
+          if(i==1) { rowOfLand+= landSelection()}
+         else {rowOfLand = rowOfLand + landSelection();}
+
     console.log(rowOfLand)
 }
 
@@ -249,3 +253,9 @@ for (j=0; j<10; j++) {
 //    console.log (cubeValues(i));
 //
 //}
+
+//  Wednesday September 18, 2013  - Condiontals - Switches -  Loops -> while ( while it's true, we don't know when a condition will be met )
+
+
+
+//
