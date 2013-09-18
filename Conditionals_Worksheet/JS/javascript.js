@@ -15,7 +15,7 @@ function myDivision () {
     var returnGrade       = '';
 
             if(myWeight >249)                    {returnGrade= approvalMessage[0]}
-       else if(myWeight <248)                    {returnGrade= approvalMessage[1]}
+             else                                {returnGrade= approvalMessage[1]}
 
        return returnGrade;
 
