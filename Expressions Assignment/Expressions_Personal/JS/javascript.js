@@ -17,7 +17,12 @@ function idNumber () {
 
     var  uniqueID      = buildingLetter+roomNumber*studentAge+sectionNumber;
 
+    return uniqueID;
 
+}
+
+
+console.log(idNumber()) ;
 
 
 
