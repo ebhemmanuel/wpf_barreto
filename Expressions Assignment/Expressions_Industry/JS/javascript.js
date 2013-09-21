@@ -16,6 +16,7 @@ function myGear  () {
     var gearTotal          = gearLevel+5;
     var returnMessage  ='';
 
+if(myLevel>=45 && gearTotal>=40)     {returnMessage="Joining dungeon..."+"You are level "+myLevel+ " and your iGear level is, "+gearTotal+"."}
 
 
 
