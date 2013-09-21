@@ -11,6 +11,7 @@
 function calorieIntake () {
 
     var yourWeight     = parseInt (prompt('What is your weight? (lb):'));
+    var   myCarbs      = parseInt(prompt ('How many carbs do you intake a day:'));
 
 
 
