@@ -11,7 +11,7 @@
 function idNumber () {
 
     var buildingLetter = prompt ('Choose a letter from A to D:');
-
+    var  roomNumber    = parseInt(prompt ('Choose a number that is 4 characters long:'));
 
 
 
