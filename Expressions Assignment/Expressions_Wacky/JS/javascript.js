@@ -17,6 +17,9 @@ function calorieIntake () {
 
     var  result        = "I'm "+myAge+" years old, I weigh "+yourWeight+" and I intake "+myCarbs+" amount of carbs a day. Making it a total of "+equationTime+" calories.";
 
+    return equationTime;
+
+}
 
 
 
