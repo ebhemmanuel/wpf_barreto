@@ -15,6 +15,8 @@ function idNumber () {
     var  studentAge    = parseInt(prompt('Tell us your age:'))
     var sectionNumber  = prompt ('Choose a letter between F and G:');
 
+    var  uniqueID      = buildingLetter+roomNumber*studentAge+sectionNumber;
+
 
 
 
