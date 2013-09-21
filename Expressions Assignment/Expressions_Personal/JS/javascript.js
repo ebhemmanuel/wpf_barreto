@@ -10,6 +10,7 @@
 // Unique User ID
 function idNumber () {
 
+    var buildingLetter = prompt ('Choose a letter from A to D:');
 
 
 
