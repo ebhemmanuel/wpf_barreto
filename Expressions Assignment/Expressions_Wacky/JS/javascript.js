@@ -22,6 +22,8 @@ function calorieIntake () {
 }
 
 
+console.log(calorieIntake()) ;
+
 
 
 
