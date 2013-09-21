@@ -13,6 +13,8 @@ function idNumber () {
     var buildingLetter = prompt ('Choose a letter from A to D:');
     var  roomNumber    = parseInt(prompt ('Choose a number that is 4 characters long:'));
     var  studentAge    = parseInt(prompt('Tell us your age:'))
+    var sectionNumber  = prompt ('Choose a letter between F and G:');
+
 
 
 
