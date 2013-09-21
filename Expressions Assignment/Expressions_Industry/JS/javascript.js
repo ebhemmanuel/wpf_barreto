@@ -10,7 +10,8 @@
 // User must meet the criteria of being at least level 45, and gear level being at least lvl 40.
 
 function myGear  () {
-    var levelCap
+    var levelCap           = 50;
+
 
 
 
