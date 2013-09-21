@@ -14,6 +14,8 @@ function myGear  () {
     var myLevel            =prompt("What level are you?") ;
     var gearLevel          =parseInt(prompt("What is the highest gear level"+"max is:"+myLevel));
     var gearTotal          = gearLevel+5;
+    var returnMessage  ='';
+
 
 
 
