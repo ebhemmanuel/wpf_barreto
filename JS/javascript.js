@@ -161,51 +161,99 @@
 
 
 
-//    var randomValue = Math.random ();
+    var randomValue = Math.random ();
 //or   //   var name = 1;                                                                                                //<- repeat this till 10   simple way to do it.
 
-//function landSelection () {
-//    var percentChance = Math.floor(Math.random()*10);
-//     var landArray    = [ "Woods", "Jungle", "Grass", "Boom", "Water", "Snow", "Molten", "Swamps", "Caves", "Secret" ];
-//        var returnLand= '';
-//             if(percentChance ==0)  {returnLand= landArray[0]}
-//        else if(percentChance ==1)  {returnLand= landArray[1]}
-//        else if(percentChance ==2)  {returnLand= landArray[2]}
-//        else if(percentChance ==3)  {returnLand= landArray[3]}
-//        else if(percentChance ==4)  {returnLand= landArray[4]}
-//        else if(percentChance ==5)  {returnLand= landArray[5]}
-//        else if(percentChance ==6)  {returnLand= landArray[6]}
-//        else if(percentChance ==7)  {returnLand= landArray[7]}
-//        else if(percentChance ==8)  {returnLand= landArray[8]}
-//        else if(percentChance ==9)  {returnLand= landArray[9]}
-//                                                                                          //console.log(percentChance);
-//           return returnLand;
-//    }
-////console.log(landSelection());
+function landSelection () {
+    var percentChance = Math.floor(Math.random()*10);
+     var landArray    = [ "Woods", "Jungle", "Grass", "Boom", "Water", "Snow", "Molten", "Swamps", "Caves", "Secret" ];
+        var returnLand= '';
+             if(percentChance ==0)  {returnLand= landArray[0]}
+        else if(percentChance ==1)  {returnLand= landArray[1]}
+        else if(percentChance ==2)  {returnLand= landArray[2]}
+        else if(percentChance ==3)  {returnLand= landArray[3]}
+        else if(percentChance ==4)  {returnLand= landArray[4]}
+        else if(percentChance ==5)  {returnLand= landArray[5]}
+        else if(percentChance ==6)  {returnLand= landArray[6]}
+        else if(percentChance ==7)  {returnLand= landArray[7]}
+        else if(percentChance ==8)  {returnLand= landArray[8]}
+        else if(percentChance ==9)  {returnLand= landArray[9]}
+                                                                                          //console.log(percentChance);
+           return returnLand;
+    }
+//console.log(landSelection());
 //
 //
 //
-//function myPosition (){
-//
-//    var x = 0;
-//    var y = 0;
-//
-//    var myCor  = [x, y];
-////    var xyMove = [y--, y++, x--, x++];
-//    var goHere =  'E';
-//    var direction= [goHere==="N", goHere==="S", goHere==="W", goHere==="E"];
-//
-//       var returnYCor= myCor[0];
-//       var returnXCor= myCor[1];
-//
-//         if (direction[0]) {returnYCor= myCor[0]-=1}
-//    else if (direction[1]) {returnYCor= myCor[1]+=1}
-//    else if (direction[2]) {returnXCor= myCor[2]-=1}
-//    else if (direction[3]) {returnXCor= myCor[3]+=1}
-//
-//     return worldMap[j][i];
-//
-//}
+
+function tabGen (len) {
+    if(len >7)        {return '\t';}
+    else if(len >3)        {return '\t\t';}
+    else if(len <=3)       {return '\t\t\t';}
+}
+
+var worldString = '';
+
+for(o=0;o<10;o++) {
+
+    worldString = '';
+
+    for(i=0;i<10;i++) {
+
+        worldString+=worldMap[o][i];
+        worldString+=tabGen(worldMap[o][i].length);
+
+
+    }
+
+    console.log(worldString);
+
+     function  myLocation () {
+
+    var x            = 0;
+    var y            = 0;
+    var endCondition = true;
+
+    var myCor        = [x, y];
+    var goHere       =  'E';
+    var direction    = [goHere=="N", goHere=="S", goHere=="W", goHere=="E", goHere=="Q"];
+
+       var returnYCor= myCor[1];
+       var returnXCor= myCor[0];
+
+         if (direction[0]) {returnYCor= myCor[1]-=1}
+    else if (direction[1]) {returnYCor= myCor[1]+=1}
+    else if (direction[2]) {returnXCor= myCor[0]-=1}
+    else if (direction[3]) {returnXCor= myCor[0]+=1}
+         if (direction[4]) {endCondition=     false}
+
+         return worldString[y][x]
+
+     }
+
+
+var worldString = '';
+
+for(o=0;o<10;o++) {
+
+    worldString = '';
+
+    for(i=0;i<10;i++) {
+
+        worldString+=worldMap[o][i];
+        worldString+=worldMap[o][i]+myPosition();
+
+
+    }
+
+    console.log(worldString);
+}
+
+
+
+
+
+
 ////
 //
 //
@@ -232,80 +280,42 @@
 
 //do while and switch
 
-console.log('Start');
-
-
-function password () {
-
-var initPass='';
-var secondPass='';
-var validLength=false;
-
-
-
-do {
-
-    initPass = prompt( 'Enter Pass') ;
-
-    if (initPass.length >= 8 && initPass.length <= 12)
-
-            {validLength=true;}
-
-
-}
-
-while (validLength==false);
-
-secondPass=prompt('Renter');
-if (secondPass==initPass){console.log('They match')}
-else {console.log ('You dun goofed')}
-
-}
-
-console.log(password())
-
-
-
-//var worldString = '';
-//
-//for(o=0;o<10;o++) {
-//
-//    worldString = '';
-//
-//    for(i=0;i<10;i++) {
-//
-//        worldString+=worldMap[o][i];
-//        worldString+=worldMap[o][i]+myPosition();
+//console.log('Start');
 //
 //
-//    }
+//function password () {
 //
-//    console.log(worldString);
-//}
-
-
-//function tabGen (len) {
-//         if(len >7)        {return '\t';}
-//    else if(len >3)        {return '\t\t';}
-//    else if(len <=3)       {return '\t\t\t';}
+//var initPass='';
+//var secondPass='';
+//var validLength=false;
+//
+//
+//
+//do {
+//
+//    initPass = prompt( 'Enter Pass') ;
+//
+//    if (initPass.length >= 8 && initPass.length <= 12)
+//
+//            {validLength=true;}
+//
+//
 //}
 //
-//var worldString = '';
+//while (validLength==false);
 //
-//for(o=0;o<10;o++) {
+//secondPass=prompt('Renter');
+//if (secondPass==initPass){console.log('They match')}
+//else {console.log ('You dun goofed')}
 //
-//    worldString = '';
-//
-//    for(i=0;i<10;i++) {
-//
-//        worldString+=worldMap[o][i];
-//        worldString+=tabGen(worldMap[o][i].length);
-//
-//
-//    }
-//
-//    console.log(worldString);
 //}
+//
+//console.log(password())
+
+
+
+
+
 
 
 
@@ -389,3 +399,107 @@ console.log(password())
 //Allow the user to move north, south, west, and east. Or quit. Log the landtype at location + [x,y] values.
 
 //Handle Edges by telling the user to return back one step as he has reached the edge of the map, or push him to the start of the row. (Restart)
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    var firstVar  =  2;
+//    var secondVar =  3;
+//    var thirdVar  = -5;
+//    var myEquation= firstVar * secondVar + thirdVar;
+//
+//    if (thirdVar <0 )  {myEquation= firstVar*secondVar-thirdVar}
+//
+//        console.log(myEquation);
+//
+//
+//     var firstVar  =2*i;
+//     var secondVar =3*i;
+//
+//
+//        var result =[];
+//
+//     for(i=0; i<10; i++) {
+//
+//         firstInc=firstVar+=2;
+//
+//
+//   }
+//
+//     return firstInc;
+//
+//
+//     for(j=0; j<1; j++) {
+//
+//
+//         secondInc=3;
+//
+//
+//     }
+//
+//         return  secondInc;
+//
+//
+//
+//
+//
+//     for (b=0; b<1; b++) {
+//
+//         for(d=0; d<10; d++) {
+//
+//               thirdInc=thirdVar+=1;
+//
+//
+//         }
+//
+//         return thirdInc;
+//
+//
+//
+//     }
+//
+//     console.log(myLoop())
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
