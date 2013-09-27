@@ -20,3 +20,4 @@ function myFinal (one, two, three) {                                  // functio
     var  myTotal= parseInt((three));                                  // Variable with parseInt
 
     var myEquation1=myGear*myRun*myTotal;                             // Equation # 1
+    var myEquation2=myGear*myTotal/myRun;                             // Equation # 2
