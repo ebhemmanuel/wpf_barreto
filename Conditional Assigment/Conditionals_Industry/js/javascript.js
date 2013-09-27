@@ -22,6 +22,7 @@
 
     var returnBalance          = '';                                                                        // This will push out the results to a variable.
 
+    if(myWeight >249)                         {returnGrade= approvalMessage[0]}                             // Added a conditional to push out "You're fine".
 
 
 
