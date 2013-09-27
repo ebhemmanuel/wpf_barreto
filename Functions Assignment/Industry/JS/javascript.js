@@ -11,3 +11,7 @@
 //(condition1>condition2) ? console.log(condition1) : console.log(condition2);
 
 function myStart () {                                                                     //Start of the function form
+
+    var startDay= "My start date was " +                                                  //  Start Date variable
+        prompt("What was your school start date? Enter full date |day month #,  year ");  //
+    var whereAt = " at " + prompt( "What school?" )+".";                                  //  Which school?
