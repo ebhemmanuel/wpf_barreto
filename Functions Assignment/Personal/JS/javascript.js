@@ -30,3 +30,7 @@ function myFinal (one, two, three) {                                  // functio
     else if(myGear>10000) {myResult= myEquation3}                     // If myGear is greater or equal to than 300, then myResult will equal to myEquation3
 
     return myResult;                                                  // Returns value to the finished function
+
+}                                                                     //
+
+console.log (myFinal(mySuit, myACC, myPoints));                       // Prints out the function result
