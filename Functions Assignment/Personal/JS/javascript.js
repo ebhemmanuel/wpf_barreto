@@ -16,3 +16,5 @@ var myPoints= parseInt(prompt()) ;                                    //Prompts 
 function myFinal (one, two, three) {                                  // function name, encapsulated parameters
 
     var   myGear= parseInt((one));                                    // Variable with parseInt
+    var    myRun= parseInt((two));                                    // Variable with parseInt
+    var  myTotal= parseInt((three));                                  // Variable with parseInt
