@@ -9,3 +9,9 @@
 
 var   mySuit= parseInt(prompt()) ;                                    //Prompts user for value.
 var    myACC= parseInt(prompt()) ;                                    //Prompts user for value.
+var myPoints= parseInt(prompt()) ;                                    //Prompts user for value.
+
+
+
+function myFinal (one, two, three) {                                  // function name, encapsulated parameters
+
