@@ -18,6 +18,8 @@
 
             var mySystem    = [ 5, 10, 30, 60];                                                  // Added main var.
 
+            var myResults = [ mySystem[0]+mySystem[2]/mySystem[0], mySystem[3]*mySystem[1]+mySystem[0]];
+
 
 
 
