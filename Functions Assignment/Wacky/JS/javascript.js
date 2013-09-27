@@ -12,3 +12,4 @@
 
 function myFunk () {
     var varOne=parseInt(prompt('Choose between 2 or 3'));                             // Prompts user for value
+    var varTwo=  [varOne==2, varOne==3]                                               // Gives meaning to variable
