@@ -22,6 +22,7 @@
 
             var returnPhase   = '';
 
+            if(mySystem[0]<=mySystem[1] && mySystem[2]<=mySystem[3])               {returnPhase= myResults[0]}
 
 
 
