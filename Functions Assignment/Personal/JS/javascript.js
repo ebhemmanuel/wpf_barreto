@@ -21,3 +21,4 @@ function myFinal (one, two, three) {                                  // functio
 
     var myEquation1=myGear*myRun*myTotal;                             // Equation # 1
     var myEquation2=myGear*myTotal/myRun;                             // Equation # 2
+    var myEquation3=myGear/myTotal*myRun;                             // Equation # 3
