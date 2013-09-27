@@ -28,7 +28,7 @@
 
 
 
-console.log(returnPhase);
+console.log(returnPhase);                                                                               // Added console log.
 
 
 
