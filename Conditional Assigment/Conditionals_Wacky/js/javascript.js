@@ -20,7 +20,9 @@
     var reqNow                 = parseInt(prompt('How much do you get per kill? Enter a number between 0-50'))            // Added first prompt.
     var approvalMessage        = [ 'You'+'re'+' gaining '+reqNow*2+' per level. You'+'re'+' still too low.','You'+'re'+' gaining '+reqNow*2.2+' per level. You'+'re'+' getting better','You'+'re'+' gaining '+reqNow*2.5+' per level. You'+'re'+' almost there.', 'You'+'re'+' gaining '+reqNow*3+' per level. You'+'re'+' about done!' ];                                                             // Variables will prompt result.
 
+var returnMessage          = '';                                    // This will push out the results to a variable.
 
+     if(reqNow >10)       {returnMessage= approvalMessage[0]}
 
 
 
