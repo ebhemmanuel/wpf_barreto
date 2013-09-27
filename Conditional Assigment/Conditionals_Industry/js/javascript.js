@@ -19,3 +19,10 @@
 
     var myBankbalance          = parseInt(prompt('How much money do you have in your account?'))            // Added first prompt.
     var approvalMessage        = [ "Your account balance is fine.", "The account balance is too low."];     // Variables will prompt result.
+
+    var returnBalance          = '';                                                                        // This will push out the results to a variable.
+
+
+
+
+
