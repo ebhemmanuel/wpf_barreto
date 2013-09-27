@@ -21,3 +21,9 @@ function myFunk () {
     (varTwo[0]) ? returnEquation=varEqua[0] : returnEquation=varEqua[1];              // if condition1 is greater than condition2 run console.log(condition1) ELSE run console.log(condition2)
 
     return returnEquation;                                                            // Returns value to the finished function
+
+
+
+}                                                                                     //
+
+console.log (myFunk());                                                               // Prints out the function result
