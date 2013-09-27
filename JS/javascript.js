@@ -161,7 +161,7 @@
 
 
 
-    var randomValue = Math.random ();
+//    var randomValue = Math.random ();
 //or   //   var name = 1;                                                                                                //<- repeat this till 10   simple way to do it.
 
 function landSelection () {
@@ -186,62 +186,87 @@ function landSelection () {
 //
 //
 
-function tabGen (len) {
-    if(len >7)        {return '\t';}
-    else if(len >3)        {return '\t\t';}
-    else if(len <=3)       {return '\t\t\t';}
-}
+//function tabGen (len) {
+//    if(len >7)        {return '\t';}
+//    else if(len >3)        {return '\t\t';}
+//    else if(len <=3)       {return '\t\t\t';}
+//}
+//
+//var worldString = '';
+//
+//for(o=0;o<10;o++) {
+//
+//    worldString = '';
+//
+//    for(i=0;i<10;i++) {
+//
+//        worldString+=worldMap[o][i];
+//        worldString+=tabGen(worldMap[o][i].length);
+//
+//
+//    }
+
+//    console.log(worldString);
+
+
+
+//     function  myLocation () {
+
+//    var x           = 0;
+//    var y           = 0;
+////    var endCondition= true;
+//
+//    var myCor  = [x, y];
+//    var goHere =  'E';
+//    var direction= [goHere=="N", goHere=="S", goHere=="W", goHere=="E", goHere=="Q", goHere==''];
+//
+//       var returnYCor= myCor[0];
+//       var returnXCor= myCor[1];
+//
+//         if (direction[0])                 {returnYCor= myCor[0]-=1}
+//    else if (direction[1])                 {returnYCor= myCor[1]+=1}
+//    else if (direction[2])                 {returnXCor= myCor[2]-=1}
+//    else if (direction[3])                 {returnXCor= myCor[3]+=1}
+//         if (direction[4] || direction[5]) {endCondition=false}
+
+do {
+
+         var movement = prompt("Move your character with direction (N, S, E, W, Q)");
+         var arrayGroup = [yPos, xPos, world[yPos][xPos]];
+         var asterisk = world[yPos][xPos] + world[yPos][xPos].replace(world[yPos][xPos], "*");
+
+         if (movement == "N" || movement == "n") {yPos--;}
+         if (movement == "S" || movement == "s") {yPos++;}
+         if (movement == "E" || movement == "e") {xPos++;}
+         if (movement == "W" || movement == "w") {xPos--;}
+         if (movement == "Q" || movement == "q" || movement=='') {endCon = false}
+         if (xPos == -1) {xPos = 9}
+         if (yPos == -1) {yPos = 9}
+         if (xPos == 10) {xPos = 0}
+         if (yPos == 10) {yPos = 0}
+
+         var myLoc= worldString[yPos][xPos];
+
+//         return
+//
+//     }
+
+    console.log()
+//
 
 var worldString = '';
 
 for(o=0;o<10;o++) {
 
-    worldString = '';
+    worldString= '';
 
     for(i=0;i<10;i++) {
 
-        worldString+=worldMap[o][i];
-        worldString+=tabGen(worldMap[o][i].length);
+        worldString+=landSelection();
+        worldString+=myLocation()
 
 
-    }
 
-    console.log(worldString);
-
-     function  myLocation () {
-
-    var x            = 0;
-    var y            = 0;
-    var endCondition = true;
-
-    var myCor        = [x, y];
-    var goHere       =  'E';
-    var direction    = [goHere=="N", goHere=="S", goHere=="W", goHere=="E", goHere=="Q"];
-
-       var returnYCor= myCor[1];
-       var returnXCor= myCor[0];
-
-         if (direction[0]) {returnYCor= myCor[1]-=1}
-    else if (direction[1]) {returnYCor= myCor[1]+=1}
-    else if (direction[2]) {returnXCor= myCor[0]-=1}
-    else if (direction[3]) {returnXCor= myCor[0]+=1}
-         if (direction[4]) {endCondition=     false}
-
-         return worldString[y][x]
-
-     }
-
-
-var worldString = '';
-
-for(o=0;o<10;o++) {
-
-    worldString = '';
-
-    for(i=0;i<10;i++) {
-
-        worldString+=worldMap[o][i];
-        worldString+=worldMap[o][i]+myPosition();
 
 
     }
@@ -258,7 +283,7 @@ for(o=0;o<10;o++) {
 //
 //
 //
-//var worldMap =[];
+//var worldMap =[''];
 //
 //for (j=[0]; j<10; j++) {
 //
@@ -268,15 +293,17 @@ for(o=0;o<10;o++) {
 //
 //          worldMap[j][i]=landSelection();
 //          worldMap[j][i]+="*";
-////      worldMap[j][i]=landSelection();
-
-         // if(i==1) { worldMap+= landSelection()}
-         //else {worldMap = worldMap + landSelection();}
-
-//}
 //
-//    console.log(worldMap[j]);
+//         if(i==1) { worldMap+= landSelection()}
+//         else {worldMap = worldMap + landSelection();}
+//          console.log(worldMap);
 //}
+
+
+
+
+
+
 
 //do while and switch
 
@@ -473,7 +500,7 @@ for(o=0;o<10;o++) {
 
 
 
-}
+
 
 
 

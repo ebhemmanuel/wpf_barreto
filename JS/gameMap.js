@@ -1,3 +1,10 @@
+///**
+// * Created with JetBrains WebStorm.
+// * User: emmanuelbarreto
+// * Date: 9/22/13
+// * Time: 9:26 PM
+// * To change this template use File | Settings | File Templates.
+// */
 function landSelection(){
     var initValue= Math.random()*10;
     // console.log(initValue);
@@ -52,50 +59,6 @@ function tabGen (len){
 }
 
 
-//character initial position
-var yPos = 0;
-var xPos = 0;
-var endCon = true;
-var arrayGroup = [yPos, xPos, world[yPos][xPos]];
-
-
-
-//movement through our arrays
-
-console.log(arrayGroup);
-
-do {
-
-    var movement = prompt("Move your character with direction (N, S, E, W, Q)");
-
-    if (movement == "N" || movement == "n") {yPos--;}
-    if (movement == "S" || movement == "s") {yPos++;}
-    if (movement == "E" || movement == "e") {xPos++;}
-    if (movement == "W" || movement == "w") {xPos--;}
-    if (movement == "Q" || movement == "q") {endCon = false}
-    if (xPos == -1) {xPos = 9}
-    if (yPos == -1) {yPos = 9}
-    if (xPos == 10) {xPos = 0}
-    if (yPos == 10) {yPos = 0}
-
-
-    var asterisk = world[yPos][xPos] + world[yPos][xPos].replace(world[yPos][xPos], "*");
-    console.log(asterisk);
-
-    var arrayGroup = [yPos, xPos, world[yPos][xPos]];
-
-    console.log(arrayGroup);
-
-
-//    console.log(xPos);
-//    console.log(yPos);
-//    console.log()
-//    console.log(world[yPos][xPos]);
-
-} while (endCon);
-
-
-
 //console.log(landSelection());
 
 var world = [];
@@ -116,7 +79,7 @@ for(outer=0;outer<10;outer++){
     for(inner=0;inner<10;inner++){
         worldPresentationString+=world[outer][inner];
         worldPresentationString+=tabGen(world[outer][inner].length);
-        worldPresentationString+=asterisk;
+
     }
     console.log(worldPresentationString);
 
@@ -124,6 +87,63 @@ for(outer=0;outer<10;outer++){
 
 
 
+//character initial position
+var yPos = 0;
+var xPos = 0;
+var endCon = true;
+//var arrayGroup = [yPos, xPos, world[yPos][xPos]];
+//
+//
+//
+////movement through our arrays
+//
+////console.log(arrayGroup);
+//
+
+
+do {
+
+
+    var movement = prompt("Move your character with direction (N, S, E, W, Q)");
+    var arrayGroup = [yPos, xPos, world[yPos][xPos]];
+    var asterisk = world[yPos][xPos] + world[yPos][xPos].replace(world[yPos][xPos], "*");
+
+    if (movement == "N" || movement == "n") {yPos--;}
+    if (movement == "S" || movement == "s") {yPos++;}
+    if (movement == "E" || movement == "e") {xPos++;}
+    if (movement == "W" || movement == "w") {xPos--;}
+    if (movement == "Q" || movement == "q" || movement=='') {endCon = false}
+    if (xPos == -1) {xPos = 9}
+    if (yPos == -1) {yPos = 9}
+    if (xPos == 10) {xPos = 0}
+    if (yPos == 10) {yPos = 0}
+
+    var myPlace= world[yPos][xPos].replace(world[yPos][xPos],'*')
+
+
+//    return console.clear();
+
+
+
+
+
+
+//    console.log(asterisk);
+
+
+
+    console.log(arrayGroup);
+
+
+
+
+
+//    console.log(xPos);
+//    console.log(yPos);
+//    console.log()
+//    console.log(world[yPos][xPos]);
+
+} while (endCon);
 
 
 
