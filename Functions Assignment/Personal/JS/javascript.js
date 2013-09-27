@@ -8,3 +8,4 @@
 //Emmanuel Barreto // Thursday September 26, 2013 //
 
 var   mySuit= parseInt(prompt()) ;                                    //Prompts user for value.
+var    myACC= parseInt(prompt()) ;                                    //Prompts user for value.
