@@ -24,7 +24,8 @@ var returnMessage          = '';                                    // This will
 
      if(reqNow >10)            {returnMessage= approvalMessage[0]}          // Added a conditional to push out "You're too low".
      else if(reqNow <25)       {returnMessage= approvalMessage[1]}          // Added a conditional to push out "You're getting better."
-     else if(reqNow <35)       {returnMessage= approvalMessage[2]}
+     else if(reqNow <35)       {returnMessage= approvalMessage[2]}     // Added a conditional to push out "You're almost there."
+     else if(reqNow <45)       {returnMessage= approvalMessage[3]}
 
 
 
