@@ -11,3 +11,4 @@
 //(condition1>condition2) ? console.log(condition1) : console.log(condition2);
 
 function myFunk () {
+    var varOne=parseInt(prompt('Choose between 2 or 3'));                             // Prompts user for value
