@@ -16,19 +16,19 @@
 
 
 
-            var mySystem    = [ 5, 10, 30, 60];                                                          // Added main var.
+            var mySystem    = [ 5, 10, 30, 60];                                                                   // Added main var.
 
-            var myResults = [ mySystem[0]+mySystem[2]/mySystem[0], mySystem[3]*mySystem[1]+mySystem[0]]; // Added my array with results.
+            var myResults = [ mySystem[0]+mySystem[2]/mySystem[0], mySystem[3]*mySystem[1]+mySystem[0]];          // Added my array with results.
 
             var returnPhase   = '';
 
-            if(mySystem[0]<=mySystem[1] && mySystem[2]<=mySystem[3])               {returnPhase= myResults[0]}
-            else                                                                   {returnPhase= myResults[1]}
+            if(mySystem[0]<=mySystem[1] && mySystem[2]<=mySystem[3])               {returnPhase= myResults[0]}   // Returns first equation in the array.
+            else                                                                   {returnPhase= myResults[1]}   // Return second equation.
 
 
 
 
-console.log(returnPhase);                                                                               // Added console log.
+console.log(returnPhase);                                                                                        // Added console log.
 
 
 
