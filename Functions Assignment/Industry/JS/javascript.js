@@ -15,3 +15,8 @@ function myStart () {                                                           
     var startDay= "My start date was " +                                                  //  Start Date variable
         prompt("What was your school start date? Enter full date |day month #,  year ");  //
     var whereAt = " at " + prompt( "What school?" )+".";                                  //  Which school?
+
+    return startDay+""+whereAt;                                                           //  Both variables together for the return
+}
+
+console.log(myStart())                                                                    //  Prints out the function
