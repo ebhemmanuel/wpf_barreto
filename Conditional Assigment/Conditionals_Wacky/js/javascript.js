@@ -28,7 +28,7 @@ var returnMessage          = '';                                    // This will
      else if(reqNow <45)       {returnMessage= approvalMessage[3]}     // Added a conditional to push out "You're about done!."
 
 
-console.log(returnMessage);
+console.log(returnMessage);                                                                                 // Added a print out log.
 
 
 
