@@ -17,17 +17,56 @@
 
 
 
-    var myBankBalance          = parseInt(prompt('How much money do you have in your account?'))            // Added first prompt.
-    var approvalMessage        = [ "Your account balance is fine.", "The account balance is too low."];     // Variables will prompt result.
-
-    var returnBalance          = '';                                                                        // This will push out the results to a variable.
-
-    if(myBankBalance >249)                         {returnGrade= approvalMessage[0]}                             // Added a conditional to push out "You're fine".
-    else if(myBankBalance <248)                    {returnGrade= approvalMessage[1]}                             // Added a conditional to push out "You're running low yo."
+    var reqNow                 = parseInt(prompt('How much do you get per kill? Enter a number between 0-50'))            // Added first prompt.
+    var approvalMessage        = [ 'You'+'re'+' gaining '+reqNow*2+' per level. You'+'re'+' still too low.','You'+'re'+' gaining '+reqNow*2.2+' per level. You'+'re'+' getting better','You'+'re'+' gaining '+reqNow*2.5+' per level. You'+'re'+' almost there.', 'You'+'re'+' gaining '+reqNow*3+' per level. You'+'re'+' about done!' ];                                                             // Variables will prompt result.
 
 
 
-    console.log(returnBalance);                                                                             // Added a print out log.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

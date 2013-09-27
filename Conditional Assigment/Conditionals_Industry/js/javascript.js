@@ -22,8 +22,8 @@
 
     var returnBalance          = '';                                                                        // This will push out the results to a variable.
 
-    if(myBankBalance >249)                         {returnGrade= approvalMessage[0]}                             // Added a conditional to push out "You're fine".
-    else if(myBankBalance <248)                    {returnGrade= approvalMessage[1]}                             // Added a conditional to push out "You're running low yo."
+         if(myBankBalance >249)                         {returnBalance= approvalMessage[0]}                             // Added a conditional to push out "You're fine".
+    else if(myBankBalance <248)                         {returnBalance= approvalMessage[1]}                             // Added a conditional to push out "You're running low yo."
 
 
 
