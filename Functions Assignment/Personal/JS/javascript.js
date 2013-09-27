@@ -22,3 +22,9 @@ function myFinal (one, two, three) {                                  // functio
     var myEquation1=myGear*myRun*myTotal;                             // Equation # 1
     var myEquation2=myGear*myTotal/myRun;                             // Equation # 2
     var myEquation3=myGear/myTotal*myRun;                             // Equation # 3
+
+    var myResult= '';                                                 // Will send out the result of the equation.
+
+    if(myGear>=300)  {myResult= myEquation1}                     // If myGear is greater or equal to than 300, then myResult will equal to myEquation1
+    else if(myGear<300)   {myResult= myEquation2}                     // If myGear is greater or equal to than 300, then myResult will equal to myEquation2
+    else if(myGear>10000) {myResult= myEquation3}                     // If myGear is greater or equal to than 300, then myResult will equal to myEquation3
