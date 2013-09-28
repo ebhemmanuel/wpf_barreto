@@ -7,6 +7,10 @@
  */
 //Emmanuel Barreto // Thursday September 26, 2013 //
 
+
+//Joe Dalton
+//Looks good
+
 var   mySuit= parseInt(prompt()) ;                                    //Prompts user for value.
 var    myACC= parseInt(prompt()) ;                                    //Prompts user for value.
 var myPoints= parseInt(prompt()) ;                                    //Prompts user for value.
